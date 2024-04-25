@@ -26,8 +26,8 @@
 #define P_MEGA_EVOLUTIONS                TRUE
 #define P_PRIMAL_REVERSIONS              TRUE // Groudon and Kyogre only.
 #define P_ULTRA_BURST_FORMS              TRUE // Ultra Necrozma only.
-#define P_GIGANTAMAX_FORMS               TRUE
-#define P_TERA_FORMS                     TRUE
+#define P_GIGANTAMAX_FORMS               FALSE
+#define P_TERA_FORMS                     FALSE
 
 // Fusion forms
 #define P_FUSION_FORMS                   TRUE
@@ -40,7 +40,7 @@
 #define P_PALDEAN_FORMS                  P_REGIONAL_FORMS
 
 // Big groups of forms that aren't always desired when choosing families.
-#define P_PIKACHU_EXTRA_FORMS            TRUE
+#define P_PIKACHU_EXTRA_FORMS            FALSE
 #define P_COSPLAY_PIKACHU_FORMS          P_PIKACHU_EXTRA_FORMS
 #define P_CAP_PIKACHU_FORMS              P_PIKACHU_EXTRA_FORMS
 
@@ -56,9 +56,9 @@
 #define P_GEN_9_CROSS_EVOS               P_CROSS_GENERATION_EVOS // Clodsire handled by P_PALDEAN_FORMS.
 
 // To disable specific families, replace P_GEN_x_POKEMON with FALSE.
-#define P_FAMILY_BULBASAUR               P_GEN_1_POKEMON
-#define P_FAMILY_CHARMANDER              P_GEN_1_POKEMON
-#define P_FAMILY_SQUIRTLE                P_GEN_1_POKEMON
+#define P_FAMILY_BULBASAUR               FALSE
+#define P_FAMILY_CHARMANDER              FALSE
+#define P_FAMILY_SQUIRTLE                FALSE
 #define P_FAMILY_CATERPIE                P_GEN_1_POKEMON
 #define P_FAMILY_WEEDLE                  P_GEN_1_POKEMON
 #define P_FAMILY_PIDGEY                  P_GEN_1_POKEMON
@@ -186,9 +186,9 @@
 #define P_FAMILY_HO_OH                   P_GEN_2_POKEMON
 #define P_FAMILY_CELEBI                  P_GEN_2_POKEMON
 
-#define P_FAMILY_TREECKO                 P_GEN_3_POKEMON
-#define P_FAMILY_TORCHIC                 P_GEN_3_POKEMON
-#define P_FAMILY_MUDKIP                  P_GEN_3_POKEMON
+#define P_FAMILY_TREECKO                 FALSE
+#define P_FAMILY_TORCHIC                 FALSE
+#define P_FAMILY_MUDKIP                  FALSE
 #define P_FAMILY_POOCHYENA               P_GEN_3_POKEMON
 #define P_FAMILY_ZIGZAGOON               P_GEN_3_POKEMON
 #define P_FAMILY_WURMPLE                 P_GEN_3_POKEMON
